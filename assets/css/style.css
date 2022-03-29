@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&display=swap');
+
+*{
+    font-family: 'Lora', serif;
+}
+/* home banner  */
+.background{
+    background: url(/assets/media/backgrounds.jpg);
+    height: 80vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+}
+.backg{
+    opacity: .5;
+    background: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+#header {
+    padding-top: 250px;
+    font-size: 20px;
+    justify-content: center;
+    position: fixed;
+}
+.nav-menu *{ 
+    list-style:none ;
+}
+.nav-menu > ul >li {
+   position: relative;
+}
+.nav-menu a  {
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    margin-bottom: 8px;
+    border-radius: 50px;
+    background: #9b9da0;
+    height: 36px;
+    overflow: hidden;
+    color: aqua;
+}
+.nav-menu a span {
+    display:none;
+}
+a:hover, a:hover i,  a:hover span{
+    color: #d40957;
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    background: white ;
+}
+#home {
+  text-align: end;
+  padding-top: 30px;
+}
+#home h1{
+  font-size:40px;
+  color:white;
+  font-weight: bolder;
+} 
+#home p{
+  color:aqua;
+  font-size: 20px;
+}
+
+/* about  */
+.about{
+  background: lightblue;
+}
+.abouttitle{
+    text-align: center;
+    padding-top: 30px;
+}
+.abouttitle h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+}
+.abouttitle h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background:#d40957;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.abouttitle h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background:aqua;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.abouttitle .lead{
+  font-size: 15px;
+}
+.about #aboutt  h5{
+  color: #d40957;
+  text-align: center;
+}
+.about #aboutt .biodata ul{
+  list-style: none;
+}
+.about #aboutt .biodata ul .bi{
+  color: #d40957;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+}
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background:#d40957;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background:aqua;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+/* skills  */
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  .skills .progress .skill {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #45505b;
+  }
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  .skills .progress-bar-wrap {
+    background: #f2f3f5;
+  }
+  .skills  .progress-bar {
+    height: 10px;
+    transition: 2ss;
+  }
+  .skills  #one{
+    height: 10px;
+    transition: 2ss;
+    background-color:#d40957;
+    width: 344.25px;
+  }
+  .skills  #two{
+    height: 10px;
+    transition: 2ss;
+    background-color:#d40957;
+    width: 0px;
+  }
+  .skills  #three{
+    height: 10px;
+    transition: 2ss;
+    background-color:#d40957;
+    width: 229.5px;
+  }
+  .skills  #four{
+    height: 10px;
+    transition: 2ss;
+    background-color:#d40957;
+    width: 413.1px;
+  }
+  .skills  #five{
+    height: 10px;
+    transition: 2ss;
+    background-color:#d40957;
+    width: 321.3px;
+  }
+  .skills  #six{
+    height: 10px;
+    transition: 2ss;
+    background-color:#d40957;
+    width: 321.3px;
+  }
+  /* resume  */
+  .resume .resume-title {
+    text-shadow: 1px 1px 1px #d40957;
+  }
+  .resume .resume-item h4{
+    font-size: 20px;
+  }
+  .resume .resume-item h5{
+    font-size: 15px;
+  }
+  .resume ul{
+    list-style:disc;
+  }
+  .resume hr{
+    color: aqua;
+    font-weight: bold ;
+  }
+
+  /* linkup  */
+  #contact .section-title  p{
+    text-align: center;
+  }
+  .bi-facebook{
+    color: #3b5998;
+  }
+  .bi-twitter{
+    color: #00acee; 
+  }
+  .bi-instagram{
+    color: #833AB4; 
+  }
+  .bi-whatsapp{
+    color: #128C7E; 
+  }
+
+  /* footer  */
+  #footer {
+    background: rgb(115, 245, 245);
+    color:#991346;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 160px;
+  }
+  #footer h3 {
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    margin: 0 0 15px 0;
+  }
+  
+
+
