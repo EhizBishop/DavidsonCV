@@ -134,53 +134,7 @@ a:hover, a:hover i,  a:hover span{
     font-family: "Poppins", sans-serif;
     color: #45505b;
   }
-  .skills .progress .skill .val {
-    float: right;
-    font-style: normal;
-  }
-  .skills .progress-bar-wrap {
-    background: #f2f3f5;
-  }
-  .skills  .progress-bar {
-    height: 10px;
-    transition: 2ss;
-  }
-  .skills  #one{
-    height: 10px;
-    transition: 2ss;
-    background-color:#d40957;
-    width: 344.25px;
-  }
-  .skills  #two{
-    height: 10px;
-    transition: 2ss;
-    background-color:#d40957;
-    width: 0px;
-  }
-  .skills  #three{
-    height: 10px;
-    transition: 2ss;
-    background-color:#d40957;
-    width: 229.5px;
-  }
-  .skills  #four{
-    height: 10px;
-    transition: 2ss;
-    background-color:#d40957;
-    width: 413.1px;
-  }
-  .skills  #five{
-    height: 10px;
-    transition: 2ss;
-    background-color:#d40957;
-    width: 321.3px;
-  }
-  .skills  #six{
-    height: 10px;
-    transition: 2ss;
-    background-color:#d40957;
-    width: 321.3px;
-  }
+  
   /* resume  */
   .resume .resume-title {
     text-shadow: 1px 1px 1px #d40957;
